@@ -10,7 +10,11 @@ import static org.hamcrest.Matchers.hasItem;
 
 public class EndUserSteps extends ScenarioSteps {
 
-    DictionaryPage dictionaryPage;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	DictionaryPage dictionaryPage;
 
     @Step
     public void enters(String keyword) {
