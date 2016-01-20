@@ -24,6 +24,8 @@ public class DictionaryPage extends PageObject {
 
     public void enter_keywords(String keyword) {
         searchTerms.type(keyword);
+        
+        
     }
 
     public void lookup_terms() {
